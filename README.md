@@ -1,3 +1,29 @@
+##Phishing y Automatización de Formularios
+Este README proporciona información sobre el phishing y cómo el ejemplo anterior de automatización de formularios puede considerarse un ejemplo de phishing. El phishing es una práctica engañosa y potencialmente dañina que se utiliza para obtener información confidencial de manera fraudulenta.
+
+##¿Qué es el Phishing?
+Phishing es una forma de ciberataque en la que un atacante se hace pasar por una entidad de confianza (como un banco, una red social o una empresa legítima) para engañar a las personas y obtener información confidencial, como contraseñas, números de tarjetas de crédito y otra información personal. El objetivo del phishing es obtener acceso no autorizado a cuentas, robar identidades o cometer otros tipos de fraude.
+
+Los ataques de phishing a menudo implican el envío de correos electrónicos o la creación de sitios web falsos que se parecen mucho a los originales. Los estafadores utilizan tácticas de ingeniería social para engañar a las víctimas y hacer que divulguen información sensible.
+
+##Automatización de Formularios y Phishing
+El ejemplo de código anterior muestra cómo se puede utilizar la automatización de formularios con Selenium para ingresar credenciales en un formulario de inicio de sesión en una página web. Aunque el código es presentado aquí con fines educativos y éticos, es importante destacar que la misma técnica de automatización de formularios puede ser utilizada con fines maliciosos y considerarse una forma de phishing si se realiza sin el consentimiento y la autorización adecuados.
+
+Algunas de las características comunes que pueden convertir la automatización de formularios en un acto de phishing incluyen:
+
+**Engaño:** El atacante puede engañar a las víctimas para que compartan sus credenciales al hacerles creer que están interactuando con un sitio web legítimo.
+
+Recopilación de Datos Sensibles: La automatización de formularios puede utilizarse para recopilar datos confidenciales, como contraseñas, números de tarjeta de crédito o información personal, sin el consentimiento del usuario.
+
+Suplantación de Identidad: Al utilizar la automatización de formularios, un atacante puede suplantar la identidad de una entidad de confianza para robar información.
+
+**Nota Importante**
+Este README se proporciona para crear conciencia sobre el phishing y destacar cómo la automatización de formularios puede considerarse una forma de phishing si se usa con intenciones maliciosas. Se enfatiza la importancia de realizar actividades de seguridad de manera ética y legal, y de respetar las políticas y leyes aplicables.
+
+El phishing es ilegal y dañino. No debe ser utilizado con fines maliciosos, y se debe tener cuidado de respetar las leyes y regulaciones aplicables al realizar pruebas de seguridad en sistemas y sitios web.
+
+Asegúrate de cumplir con todas las leyes y regulaciones aplicables y de respetar las políticas de seguridad del sitio web al realizar actividades de automatización de formularios.
+
 # Buenas Prácticas para Evitar Mal Uso de Datos de Formulario
 
 Este README tiene como objetivo proporcionar información sobre buenas prácticas y directrices para garantizar que las tecnologías y scripts en uso cumplan con los principios éticos y legales, y eviten prácticas maliciosas como la recolección no autorizada de datos de formulario.
