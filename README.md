@@ -11,20 +11,20 @@ El ejemplo de código anterior muestra cómo se puede utilizar la automatizació
 
 Algunas de las características comunes que pueden convertir la automatización de formularios en un acto de phishing incluyen:
 
-** Engaño: ** El atacante puede engañar a las víctimas para que compartan sus credenciales al hacerles creer que están interactuando con un sitio web legítimo.
+##3 Engaño:  El atacante puede engañar a las víctimas para que compartan sus credenciales al hacerles creer que están interactuando con un sitio web legítimo.
 
 Recopilación de Datos Sensibles: La automatización de formularios puede utilizarse para recopilar datos confidenciales, como contraseñas, números de tarjeta de crédito o información personal, sin el consentimiento del usuario.
 
 Suplantación de Identidad: Al utilizar la automatización de formularios, un atacante puede suplantar la identidad de una entidad de confianza para robar información.
 
-** Nota Importante **
+### Nota Importante 
 Este README se proporciona para crear conciencia sobre el phishing y destacar cómo la automatización de formularios puede considerarse una forma de phishing si se usa con intenciones maliciosas. Se enfatiza la importancia de realizar actividades de seguridad de manera ética y legal, y de respetar las políticas y leyes aplicables.
 
 El phishing es ilegal y dañino. No debe ser utilizado con fines maliciosos, y se debe tener cuidado de respetar las leyes y regulaciones aplicables al realizar pruebas de seguridad en sistemas y sitios web.
 
 Asegúrate de cumplir con todas las leyes y regulaciones aplicables y de respetar las políticas de seguridad del sitio web al realizar actividades de automatización de formularios.
 
-# Buenas Prácticas para Evitar Mal Uso de Datos de Formulario
+#Buenas Prácticas para Evitar Mal Uso de Datos de Formulario
 
 Este README tiene como objetivo proporcionar información sobre buenas prácticas y directrices para garantizar que las tecnologías y scripts en uso cumplan con los principios éticos y legales, y eviten prácticas maliciosas como la recolección no autorizada de datos de formulario.
 
