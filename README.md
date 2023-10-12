@@ -1,5 +1,5 @@
 ## Phishing y Automatización de Formularios
-Este README proporciona información sobre el phishing y cómo el ejemplo anterior de automatización de formularios puede considerarse un ejemplo de phishing. El phishing es una práctica engañosa y potencialmente dañina que se utiliza para obtener información confidencial de manera fraudulenta.
+Este README proporciona información sobre el phishing y cómo el siguiente ejemplo que mostraremos de automatización de formularios puede considerarse un ejemplo de phishing. El phishing es una práctica engañosa y potencialmente dañina que se utiliza para obtener información confidencial de manera fraudulenta.
 
 ## ¿Qué es el Phishing?
 Phishing es una forma de ciberataque en la que un atacante se hace pasar por una entidad de confianza (como un banco, una red social o una empresa legítima) para engañar a las personas y obtener información confidencial, como contraseñas, números de tarjetas de crédito y otra información personal. El objetivo del phishing es obtener acceso no autorizado a cuentas, robar identidades o cometer otros tipos de fraude.
