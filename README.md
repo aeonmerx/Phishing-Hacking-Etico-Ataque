@@ -1,3 +1,36 @@
+# SEGURIDAD INFORMÀTICA
+# PHISHING EJERCICIO
+Lo que veremos en este ejercicio es una forma de ataque de phishing, en la que se crea un sitio web falso que se hace pasar por una página web legítima (en este caso, Facebook). El atacante modifica el formulario de inicio de sesión para que las credenciales de inicio de sesión ingresadas se guarden en un archivo, en lugar de autenticar al usuario en la página real. Luego, Selenium se utiliza para automatizar el proceso de inicio de sesión en cuentas legítimas utilizando las credenciales robadas.
+
+## Explicación de la Práctica:
+Creación de un Sitio Web Falso: El atacante crea un sitio web falso que se parece mucho a la página de inicio de sesión de Facebook, pero en realidad, es una réplica falsa.
+
+### Modificación del Formulario: El formulario de inicio de sesión en el sitio web falso se modifica para que los datos ingresados se envíen a un archivo en lugar de autenticar al usuario en la página real. Esto se logra mediante la modificación del atributo "action" en el formulario HTML.
+
+### Captura de Credenciales: Cuando las víctimas ingresan sus credenciales en el sitio web falso y hacen clic en "Iniciar sesión", estas credenciales se capturan y almacenan en un archivo (en este caso, un bloc de notas).
+
+### Automatización de Inicio de Sesión: Luego, se utiliza Selenium para automatizar el proceso de inicio de sesión en cuentas legítimas utilizando las credenciales robadas. Esto se hace para aprovechar las credenciales robadas y acceder a cuentas reales de usuario.
+
+## Cómo Prevenirlo:
+Para prevenir el phishing y protegerse de ataques como el descrito, es importante tomar medidas de seguridad y conciencia:
+
+Desconfiar de Enlaces y Correos Electrónicos No Solicitados: No hagas clic en enlaces o descargues archivos adjuntos en correos electrónicos no solicitados o sospechosos.
+
+Verifica la URL: Siempre verifica la URL de la página de inicio de sesión. Asegúrate de estar en el sitio web correcto antes de ingresar tus credenciales.
+
+Usa Autenticación en Dos Pasos (2FA): Habilita la autenticación en dos pasos en tus cuentas siempre que sea posible. Esto agrega una capa adicional de seguridad.
+
+Mantén el Software Actualizado: Asegúrate de que tu navegador, sistema operativo y software de seguridad estén actualizados.
+
+Educación en Seguridad Cibernética: Educa a los usuarios para que sean conscientes de las amenazas de phishing y los peligros de compartir información confidencial en sitios web no verificados.
+
+Software de Seguridad: Utiliza software de seguridad, como programas antivirus y antiphishing, para detectar y bloquear sitios web y correos electrónicos maliciosos.
+
+Denuncia el Phishing: Si sospechas de un sitio web o correo electrónico de phishing, denúncialo a las autoridades o a la plataforma correspondiente.
+
+Seguridad de la Contraseña: Utiliza contraseñas fuertes y únicas para cada cuenta. Un administrador de contraseñas puede ayudar a gestionarlas de manera segura.
+
+El phishing es un problema persistente y requiere vigilancia constante y educación en seguridad cibernética para evitar caer en trampas. Mantenerse informado y seguir prácticas seguras en línea es esencial.
 ## Phishing y Automatización de Formularios
 Este README proporciona información sobre el phishing y cómo el siguiente ejemplo que mostraremos de automatización de formularios puede considerarse un ejemplo de phishing. El phishing es una práctica engañosa y potencialmente dañina que se utiliza para obtener información confidencial de manera fraudulenta.
 
