@@ -1,4 +1,4 @@
-# README - Buenas Prácticas para Evitar Mal Uso de Datos de Formulario
+# Buenas Prácticas para Evitar Mal Uso de Datos de Formulario
 
 Este README tiene como objetivo proporcionar información sobre buenas prácticas y directrices para garantizar que las tecnologías y scripts en uso cumplan con los principios éticos y legales, y eviten prácticas maliciosas como la recolección no autorizada de datos de formulario.
 
