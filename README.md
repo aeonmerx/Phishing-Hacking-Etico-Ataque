@@ -51,6 +51,7 @@ e. Envía el formulario de inicio de sesión.
 f. Espera a que la página se cargue (puedes ajustar este tiempo).
 g. Realiza cualquier acción adicional si es necesario.
 Este código es útil para realizar pruebas o automatizar el proceso de inicio de sesión con múltiples cuentas. Sin embargo, ten en cuenta que su uso debe realizarse de manera ética, legal y en un entorno controlado donde tengas permiso para llevar a cabo pruebas de este tipo. Además, asegúrate de que el archivo de contraseñas se mantenga de manera segura y que las contraseñas se almacenen de forma encriptada y protegida.
+
 ```python
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
