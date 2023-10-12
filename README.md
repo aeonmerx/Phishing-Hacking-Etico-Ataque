@@ -177,7 +177,7 @@ USAMOS EL CÒDIGO FUENTE ORIGINAL
 ```
 DEL CODIGO ANTERIOR HAY UN FRAGMENTO QUE LO QUE HACE ES CONTROLAR QUE SE EJECUTA CUANDO SE ENVIA EL FORMULARIO
 ESE FRAGMENTO ES ESTE:
-```
+```html
 <form class="_9vtf" data-testid="royal_login_form" action="/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjk3MDgzMTI1LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D
 ```
 ### PARA CAMBIAR EL MÈTODO QUE SE EJECUTA DEBEMOS CAMBIAR EL ARGUMENTO DE LA PROPIEDAD ACTION EN VEZ DE /login?privacy .. ponemos el nombre del mètodo que queremos que se ejecute:
