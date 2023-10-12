@@ -36,7 +36,21 @@ Para evitar el mal uso de datos de formulario y garantizar la seguridad y la int
 ## Nota Importante
 
 Este README se proporciona con la intención de promover prácticas de seguridad éticas y legales. El código proporcionado no debe utilizarse con fines maliciosos, y se debe tener cuidado de respetar las leyes y regulaciones aplicables en todo momento.
-# AUTOMATIZAR EL INISIO DE SESIÒN CON CONTRASEÑAS ALMACENADAS EN EL BLOC DE NOTAS
+## Automatizar el inicio de sesiòn en facebook con contraseñas y usuarios almacenados en un bloc de notas
+El código que proporcionaste es un ejemplo de cómo utilizar Selenium para automatizar el inicio de sesión en una página web utilizando contraseñas almacenadas en un archivo. El código realiza las siguientes acciones:
+
+Configura el controlador de Selenium y abre el sitio web de Facebook.
+Lee las credenciales desde un archivo de bloc de notas ("credenciales.txt").
+Divide el archivo en bloques separados por líneas en blanco para procesar las credenciales de múltiples usuarios.
+Para cada usuario en los bloques separados:
+a. Divide cada bloque en líneas y crea un diccionario clave-valor para las credenciales.
+b. Verifica si existen las claves 'email' y 'pass' en el diccionario.
+c. Encuentra los elementos de usuario y contraseña en la página web.
+d. Ingresa las credenciales en los campos correspondientes.
+e. Envía el formulario de inicio de sesión.
+f. Espera a que la página se cargue (puedes ajustar este tiempo).
+g. Realiza cualquier acción adicional si es necesario.
+Este código es útil para realizar pruebas o automatizar el proceso de inicio de sesión con múltiples cuentas. Sin embargo, ten en cuenta que su uso debe realizarse de manera ética, legal y en un entorno controlado donde tengas permiso para llevar a cabo pruebas de este tipo. Además, asegúrate de que el archivo de contraseñas se mantenga de manera segura y que las contraseñas se almacenen de forma encriptada y protegida.
 ```python
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
